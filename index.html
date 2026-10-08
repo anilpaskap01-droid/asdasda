@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#faf5ef">
+    <meta name="description" content="Sana küçük bir not: Benimle barışırsan mutlu olurum.">
+    <title>Benimle barışırsan mutlu olurum ♡</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="confetti" id="confetti" aria-hidden="true"></div>
+    <main class="page">
+      <header class="intro">
+        <p class="eyebrow"><span aria-hidden="true">♡</span> Sana küçük bir not</p>
+        <h1>Benimle barışırsan<br><em>mutlu olurum</em></h1>
+        <p class="intro-text">Güzel şeylere yeniden başlayabiliriz.</p>
+      </header>
+
+      <section class="letter" aria-labelledby="letter-title">
+        <span class="corner corner-top" aria-hidden="true">✧</span>
+        <span class="corner corner-bottom" aria-hidden="true">✧</span>
+        <div class="illustration" aria-hidden="true">
+          <svg class="envelope" viewBox="0 0 320 240" fill="none">
+            <ellipse cx="160" cy="212" rx="101" ry="10" fill="#e5d7ca" opacity=".42"/>
+            <path d="M61 109 153 43a12 12 0 0 1 14 0l92 66v86H61z" fill="#e8b7a9" stroke="#cc9283" stroke-width="2" stroke-linejoin="round"/>
+            <g class="note">
+              <rect x="86" y="64" width="148" height="124" rx="7" fill="#fffaf4" stroke="#e9d7c7" stroke-width="2"/>
+              <path class="heart" d="M160 122s-28-17-28-33c0-16 20-20 28-6 8-14 28-10 28 6 0 16-28 33-28 33Z" fill="#c5646d"/>
+              <path d="M123 143h74M135 155h50" stroke="#e3c6b9" stroke-width="3" stroke-linecap="round"/>
+            </g>
+            <path d="M61 110v84a9 9 0 0 0 9 9h180a9 9 0 0 0 9-9v-84l-92 57a13 13 0 0 1-14 0z" fill="#f2cfc0" stroke="#cc9283" stroke-width="2" stroke-linejoin="round"/>
+            <path d="m63 200 74-57m120 57-74-57" stroke="#d6a495" stroke-width="2"/>
+            <path d="M160 183s-11-6-11-13c0-6 8-8 11-2 3-6 11-4 11 2 0 7-11 13-11 13Z" fill="#b96768"/>
+            <g stroke="#c68c72" stroke-width="2" stroke-linecap="round">
+              <path d="M44 69v12m-6-6h12M268 52v16m-8-8h16M281 150v8m-4-4h8"/>
+            </g>
+            <circle cx="57" cy="151" r="3" fill="#c68c72"/>
+            <circle cx="244" cy="38" r="3" fill="#c68c72"/>
+          </svg>
+        </div>
+
+        <div class="letter-copy">
+          <p class="small-label" id="letter-label">Kalbimden, sana.</p>
+          <h2 id="letter-title" tabindex="-1">Barışalım mı?</h2>
+          <p class="message" id="message">Küslük bize yakışmıyor.<br>Birlikte yeniden gülümseyelim mi?</p>
+        </div>
+
+        <div class="actions" id="actions">
+          <button class="button button-yes" id="yes" type="button"><span aria-hidden="true">♡</span> Barış</button>
+          <button class="button button-no" id="no" type="button">Barışma</button>
+        </div>
+        <div class="result-actions" id="result-actions" hidden>
+          <button class="button button-no" id="reset" type="button">Baştan bak <span aria-hidden="true">↺</span></button>
+        </div>
+        <p class="sign-off" id="sign-off">Bazen tek bir kelime yeter.</p>
+        <noscript><p class="noscript">Düğmelerin çalışması için tarayıcında JavaScript açık olmalı.</p></noscript>
+      </section>
+
+      <footer>Seninle her şey biraz daha güzel. <span aria-hidden="true">♡</span></footer>
+    </main>
+  </body>
+</html>
